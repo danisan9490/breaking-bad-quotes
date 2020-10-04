@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/breaking-bad-quotes/static/css/main.5d6f989c.chunk.css",
+    "main.js": "/breaking-bad-quotes/static/js/main.14196e69.chunk.js",
+    "main.js.map": "/breaking-bad-quotes/static/js/main.14196e69.chunk.js.map",
+    "runtime-main.js": "/breaking-bad-quotes/static/js/runtime-main.e6a235d4.js",
+    "runtime-main.js.map": "/breaking-bad-quotes/static/js/runtime-main.e6a235d4.js.map",
+    "static/js/2.f9fe8298.chunk.js": "/breaking-bad-quotes/static/js/2.f9fe8298.chunk.js",
+    "static/js/2.f9fe8298.chunk.js.map": "/breaking-bad-quotes/static/js/2.f9fe8298.chunk.js.map",
+    "index.html": "/breaking-bad-quotes/index.html",
+    "precache-manifest.3bb671d7e6c9a9ef110d2e88d096763c.js": "/breaking-bad-quotes/precache-manifest.3bb671d7e6c9a9ef110d2e88d096763c.js",
+    "service-worker.js": "/breaking-bad-quotes/service-worker.js",
+    "static/css/main.5d6f989c.chunk.css.map": "/breaking-bad-quotes/static/css/main.5d6f989c.chunk.css.map",
+    "static/js/2.f9fe8298.chunk.js.LICENSE.txt": "/breaking-bad-quotes/static/js/2.f9fe8298.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/breaking-bad-quotes/static/media/logo.21fb223b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6a235d4.js",
+    "static/js/2.f9fe8298.chunk.js",
+    "static/css/main.5d6f989c.chunk.css",
+    "static/js/main.14196e69.chunk.js"
+  ]
+}
