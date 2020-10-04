@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css'
+import Quote from './components/Quote';
 
 function App() {
 
+  const [quote, SetQuote] = useState({});
 
   const consultarAPI = async () => {
     const api = await fetch('https://breaking-bad-quotes.herokuapp.com/v1/quotes');
-    const frase = await api.json()
-    console.log(frase[0]);
+    const quote = await api.json()
+    SetQuote(quote[0])
   }
 
   return (
     <div className="container">
+      <Quote
+        quote={quote}
+      />
       <button onClick={consultarAPI} >
         New Quote
       </button>
