@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  flex-direction: column;
+}
+
+button {
+  background: -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
+  background-size: 310px;
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin-top: 3rem;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: -webkit-linear-gradient(top left, #017732 0%, #025324 40%, #093833 100%);
+  opacity: 1;
+}
