@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css'
 import Quote from './components/Quote';
 
 function App() {
 
   const [quote, SetQuote] = useState({});
+
+  useEffect(() => {
+    consultarAPI()
+  }, []);
 
   const consultarAPI = async () => {
     const api = await fetch('https://breaking-bad-quotes.herokuapp.com/v1/quotes');
